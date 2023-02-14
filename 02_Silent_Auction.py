@@ -1,4 +1,6 @@
-""" Creating a program where you can bid on an item """
+""" Creating a program where you can bid on an item
+ Katelyn Gee
+ 15/02/2023 """
 
 
 # An error checker functions so the right input is entered
