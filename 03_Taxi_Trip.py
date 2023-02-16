@@ -73,7 +73,3 @@ print(f"Average time of the trips: {(total_time/total_trips):.2f}")
 print(f"Total day income: {overall_total_cost}")
 print(f"Average trip cost: {(overall_total_cost/total_trips):.2f}")
 print("Goodbye :)")
-
-
-
-
