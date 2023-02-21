@@ -29,13 +29,6 @@ def average_absences():
     return average
 
 
-# Setting variables
-total_days = 0
-average_absent = 0  # Probs get rid of later
-highest = 0
-no_absense = []
-above_average = []
-
 # Variables being used
 everyone = {}
 not_absent = []
@@ -97,8 +90,3 @@ for hmm in sorted_everyone:
     # if people above average, name printed
     if num > average_of_absents:
         print(hmm, num)
-
-
-
-
-
