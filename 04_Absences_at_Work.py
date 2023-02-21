@@ -39,6 +39,7 @@ above_average = []
 # Variables being used
 everyone = {}
 not_absent = []
+highest = -1
 
 
 # Input so user enters name then days absent
@@ -72,3 +73,32 @@ average_of_absents = average_absences()
 
 # Sorting people who are not absent
 sorted_not_absent = sorted(not_absent)
+
+# dictionary sorted
+sorted_everyone = sorted(everyone)
+print(sorted_everyone)
+
+# Printing out information
+print()
+print(f"Average number of days staff was absent: {average_of_absents}\n")
+print(f"Person with most days absent: {high_person} with {highest} days\n")
+
+# People not absent printed
+print(f"List of people not absent at all: ")
+for people in sorted_not_absent:
+    print(people)
+print()
+
+# People above average days
+print("List of people absent above average: ")
+for hmm in sorted_everyone:
+    num = everyone[hmm]
+
+    # if people above average, name printed
+    if num > average_of_absents:
+        print(hmm, num)
+
+
+
+
+
