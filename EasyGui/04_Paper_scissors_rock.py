@@ -23,5 +23,16 @@ while True:
     computer = random.choice(items)
 
     # Showing user what they choose and computer chooses
-    results = easygui.msgbox(f"You choose {weapon} and the computer choose {computer}")
+    results = easygui.msgbox(f"You choose {weapon} and the computer choose {computer}", "Computer Choice and User Choice")
 
+    # choosing winner
+    if computer == weapon:
+        easygui.msgbox("This is a draw", "Tie")
+    elif computer == "Paper" and weapon == "Rock" or computer == "Rock" \
+            and computer == "Scissors" or computer == "Scissors" and \
+            computer == "Paper":
+        easygui.msgbox("You lose", "User Loses")
+    else:
+        easygui.msgbox("You win!", "User Wins")
+
+easygui.msgbox("Thanks for playing!", "Goodbye")
