@@ -14,10 +14,10 @@ while True:
 
     else:
         for i in places:
-            output = f"\n*".join(places)
+            output = f"\n*  ".join(places)
 
         easygui.msgbox(f"Your Bucket list: \n\n"
-                       f"*{output}", "Travel bucket list")
+                       f"*  {output}", "Travel bucket list")
         break
 
 
