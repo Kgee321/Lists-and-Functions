@@ -50,4 +50,3 @@ while True:
 
     # Outputting final word
     easygui.msgbox(f"The word in US spelling is: {word_nz}", "US word")
-
