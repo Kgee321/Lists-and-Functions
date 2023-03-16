@@ -45,16 +45,6 @@ while True:
         # Adding to count
         count += 1
 
-        # if player reached 3 rounds
-        if count == 3:
-            answer = easygui.buttonbox("You have finished 3 rounds. \n"
-                                       "Do you want to continue with your last roll or play again?", "Rounds ended",
-                                       choices=["Continue", "Play again"])
-
-            # Repeating the game when player asks
-            if answer == "Play again":
-                break
-
     # sorting the results
     results = sorted(new_numbers)
 
