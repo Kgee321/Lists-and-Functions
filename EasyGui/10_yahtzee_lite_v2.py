@@ -1,4 +1,4 @@
-""" Basic game of Yahtzee. Player has to get 3,4, or 5 of the same number to win """
+""" Adding onto 10_yahtzee_lite_v1 so there are now 2 players """
 
 # Importing functions
 import easygui
